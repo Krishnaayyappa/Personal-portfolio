@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,192 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dde1e1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 17px;
+  margin: 35px 50px;
+}
+
+.logo img{
+  width:50px;
+  height:50px;
+  object-fit: cover;
+}
+
+.logo .name, .inactiveNav {
+  text-decoration: none;
+  color: black;
+}
+
+.img1{
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.logo{
+  font-size: 25px;
+  margin-left:35px;
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  text-decoration: row;
+  gap: 10px
+}
+
+.home{
+  font-size: 35px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 100px 10px;
+}
+
+.circle1, .circle2, .circle3{
+  width:130px;
+  height: 130px;
+  max-width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: auto;
+  line-height: 125px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.circles{
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+
+}
+
+.intro{
+  padding: 25px;
+}
+
+.circle1:hover, .circle2:hover, .circle3:hover{
+  background-color: white;
+  cursor:pointer;
+}
+
+.circle1{
+  background-color: rgb(242, 51, 51);
+}
+
+.circle2{
+  background-color: rgb(228, 152, 11);
+}
+
+.circle3{
+  background-color: rgb(8, 217, 228);
+}
+
+
+.footer{
+  width:100%;
+  margin-top: 100px;
+}
+
+hr{
+  width: 95%;
+  margin: auto;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap:30px;
+  width:85%;
+  margin:auto;
+  padding: 30px 0 50px 0;
+}
+
+.ContactIcon{
+  font-size: 25px;
+}
+
+.activeNav{
+  text-decoration: none;
+  color:rgb(35, 85, 106)
+}
+
+.workexp, .education, .skills{
+  display:flex;
+  flex-direction: row;
+  gap: 40rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px 0 50px 0;
+}
+
+.subheading{
+  width:30px
+}
+
+.subheadingdetails{
+  width:30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resume h1 {
+  margin-left: 150px;
+}
+
+.resume{
+  margin: 100px auto;
+}
+
+.role{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap:20px;
+}
+
+.formInputs{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+

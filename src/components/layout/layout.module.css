@@ -1,0 +1,28 @@
+.menu{
+    float: right;
+    width:300px;
+    max-width: 500px;
+  }
+  
+  .header{
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    width: 100%;
+  }
+  
+  .footer{
+    background-color:red;
+    text-align: center;
+    width:100%;
+    
+    font-size: 50px;
+  }
+  
+  .logo{
+    color: white;
+    font-size: 20px;
+    float: left;
+  }
+  

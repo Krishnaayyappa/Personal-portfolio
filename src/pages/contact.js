@@ -1,8 +1,12 @@
 import ContactForm from "../components/content/contactForm";
+import ContactDetails from "../components/content/ContactContent";
 
 const Contact = () => {
     return(
-        <ContactForm />
+        <div className="contacts">
+            <ContactDetails />
+            <ContactForm />
+        </div>
     )
 }
 

@@ -148,7 +148,7 @@ hr{
   color:rgb(35, 85, 106)
 }
 
-.workexp, .education, .skills{
+.experience, .skills{
   display:flex;
   flex-direction: row;
   gap: 40rem;
@@ -165,7 +165,7 @@ hr{
   width:30rem;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .resume h1 {

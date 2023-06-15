@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Contact from './pages/contact';
 
+
 function App() {
   return (
     <PageLayout>

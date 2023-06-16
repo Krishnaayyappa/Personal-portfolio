@@ -1,4 +1,4 @@
-import {LinkedinFilled, InstagramFilled}  from '@ant-design/icons'
+import {LinkedinFilled, InstagramFilled, GithubOutlined}  from '@ant-design/icons'
 import {Space} from 'antd'
 
 const Footer = () => {
@@ -19,6 +19,7 @@ const Footer = () => {
                     <Space>
                         <LinkedinFilled className = "ContactIcon"/>
                         <InstagramFilled className = "ContactIcon"/>
+                        <GithubOutlined className = "ContactIcon"/>
                     </Space>
                 </div>
                 <div className="copyright">

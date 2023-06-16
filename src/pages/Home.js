@@ -4,8 +4,7 @@ import img1 from "../images/img1.jpg"
 
 const Home = () => {
     return (
-        <div className="home">
-            <img className="img1" src={img1} alt="img1"/>
+        <div className="home fadeintext">
             <div>
                 <div className="intro">
                     <h1>Hello!</h1>

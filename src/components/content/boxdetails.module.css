@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ysabeau+Infant:wght@1&display=swap');
+
+
+.boxdetails{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Ysabeau+Infant";
+    margin:2.5rem 0 2.5rem 0;
+    line-height: 5px;
+}
+
+.details{
+    line-height: 3px;
+}

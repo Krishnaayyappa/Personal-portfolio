@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ysabeau+Infant:wght@1&display=swap');
+
+.resume h1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.resume{
+    position: relative;
+}
+
+.line{
+    width:1px;
+    min-height:175px;
+    background: rgb(180, 180, 180);
+    margin:auto;
+}
+
+.divider{
+    width:60%;
+}
+
+.project{
+    width:15rem;
+    height:5rem;
+    border: 5px solid rgb(180,180,180);
+    margin:auto;
+    text-align: center;
+}
+
+.project:hover{
+    background-color: rgb(180,180,180);
+}
+
+.project p{
+    margin-top: 1.5rem;
+    font-family:"Open+Sans";
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.resume a{
+    text-decoration: none;
+    color:black
+}
+
+.heading{
+    font-family:"Open+Sans";
+    font-style: italic;
+}
+
+.arrow{
+    font-size: 50px;
+    position: absolute;
+    left:50%;
+    margin-top: 25px;
+    color: rgb(180,180,180);
+}
+
+
+

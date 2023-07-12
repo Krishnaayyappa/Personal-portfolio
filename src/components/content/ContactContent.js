@@ -1,11 +1,11 @@
-
+import classes from "./contactcontent.module.css"
 
 const ContactDetails = () => {
     return (
-        <div className="contactcontent">
+        <div className={classes.contactcontent}>
             <div>
-                <h1>Contact</h1>
-                <p>Looking forward to hearing from you</p>
+                <h1>Get in touch</h1>
+                <p>Want to get in touch. I'd like to hear from you. Here is how you can reach me...</p>
             </div>
             <div>
                 <h3>Phone</h3>
@@ -13,7 +13,7 @@ const ContactDetails = () => {
             </div>
             <div>
                 <h3>Email</h3>
-                <p>krishnanarina8@gmail.com</p>
+                <p>krishnaayyappa3@gmail.com</p>
             </div>
         </div>
     )

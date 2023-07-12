@@ -1,0 +1,69 @@
+
+.intro{
+    width:35%;
+    margin: 7rem auto;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.intro h1{
+    font-size: 5rem;
+}
+
+.intro h3{
+    font-size: 2.5rem;
+}
+
+.intro p{
+    font-style: italic;
+}
+
+.content{
+    line-height: 1.2rem;
+}
+
+
+.circle1, .circle2, .circle3{
+    width:130px;
+    height: 130px;
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: auto;
+    line-height: 125px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+  }
+  
+  .circles{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .circle1:hover, .circle2:hover, .circle3:hover{
+    background-color: white;
+    cursor:pointer;
+  }
+
+  .circles a{
+    text-decoration: none;
+    color:black
+  }
+  
+  .circle1{
+    background-color: rgb(242, 51, 51);
+  }
+  
+  .circle2{
+    background-color: rgb(228, 152, 11);
+  }
+  
+  .circle3{
+    background-color: rgb(8, 217, 228);
+  }

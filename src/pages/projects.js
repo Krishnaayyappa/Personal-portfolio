@@ -1,18 +1,15 @@
-import { Fragment } from "react";
 import classes from "./projects.module.css"
-import Project from "../components/content/Project";
+import banking from "../images/banking.jpg"
+
 
 
 const Projects =  () => {
     return (
         <div className='fadeintext' >
+            <h1 className={classes.heading}>Projects</h1>
+            <h2>Professional projects</h2>
             <div>
-                <h1 className = {classes.heading}>Professional Projects</h1>
-                <Project />
-            </div>
-            <div>
-                <h1 className = {classes.heading}>Personal Projects</h1>
-                <Project />
+                <img className = {classes.image} src={banking} alt="banking"/>
             </div>
             
         </div>

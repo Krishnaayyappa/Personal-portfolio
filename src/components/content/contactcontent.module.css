@@ -1,0 +1,12 @@
+
+
+
+.contactcontent{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1{
+    font-size: 3rem;
+  }

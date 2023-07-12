@@ -14,9 +14,7 @@ const Navigation = () => {
             </div>
             <ul className="nav">
                 <li><NavLink className = {navLinkStyles} to = "/resume">Resume</NavLink></li>
-                <li>|</li>
                 <li><NavLink className = {navLinkStyles} to = "/projects">Projects</NavLink></li>
-                <li>|</li>
                 <li><NavLink className = {navLinkStyles} to = "/contact">Contact</NavLink></li>
             </ul>
         </header>

@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import Footer from "./footer";
 import { Fragment } from "react";
+import { Outlet } from "react-router-dom";
 
 
 
@@ -9,7 +10,7 @@ const PageLayout = (props) => {
         <Fragment>
             <Navigation />
             <main>
-                {props.children}
+                <Outlet />
             </main>
             <Footer />
         </Fragment>

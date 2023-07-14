@@ -1,0 +1,35 @@
+
+
+.protype{
+    width:800px;
+    font-family: "Ysabeau+Infant";
+    font-size: large;
+    font-weight: lighter;
+    margin:auto;
+}
+
+.project{
+    width:15rem;
+    height:5rem;
+    border: 5px solid rgb(180,180,180);
+    margin:auto;
+    text-align: center;
+}
+
+.project:hover{
+    background-color: rgb(180,180,180);
+}
+
+.project p{
+    margin-top: 1.5rem;
+    font-family:"Open+Sans";
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.link{
+    text-decoration: none;
+    color:black
+}
+

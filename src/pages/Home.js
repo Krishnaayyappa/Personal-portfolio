@@ -12,9 +12,9 @@ const Home = () => {
                 <p>{description}</p>
             </div>
             <div className={classes.circles}>
-                <Link classname = {classes.link} to="resume"><div className={classes.circle1}>Resume</div></Link>
-                <Link classname = {classes.link} to="projects"><div className={classes.circle2}>Projects</div></Link>
-                <Link classname = {classes.link} to="contact"><div className={classes.circle3}>Contacts</div></Link>
+                <Link className = {classes.link} to="resume"><div className={classes.circle1}>Resume</div></Link>
+                <Link className = {classes.link} to="projects"><div className={classes.circle2}>Projects</div></Link>
+                <Link className = {classes.link} to="contact"><div className={classes.circle3}>Contacts</div></Link>
             </div>
         </div>
     )

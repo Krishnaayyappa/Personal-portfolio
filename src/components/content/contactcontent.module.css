@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ysabeau+Infant:wght@1&display=swap');
 
 
 .contactcontent{
@@ -9,4 +9,6 @@
 
   h1{
     font-size: 3rem;
+    font-family:"Open+Sans";
+    font-style: italic;
   }

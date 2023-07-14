@@ -2,7 +2,7 @@ import classes from "./Resume.module.css";
 import Box from "../components/content/box";
 import BoxDetails from "../components/content/boxDetails";
 import { Link } from "react-router-dom";
-import { UpCircleFilled } from "@ant-design/icons";
+import TopNavigation from "../components/content/topnavigation";
 
 
 const Resume = () => {
@@ -81,7 +81,7 @@ const Resume = () => {
           company="Docker, Kubernetes, Microservices"
         />
       </Box>
-      <div onClick = {() => window.scrollTo({top:0, behavior:"smooth"})} className={classes.arrow}><UpCircleFilled /></div>
+      <TopNavigation />
     </div>
   );
 };

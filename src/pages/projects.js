@@ -1,17 +1,16 @@
 import classes from "./projects.module.css"
-import banking from "../images/banking.jpg"
-
-
+import ProfessionalProjects from "../components/content/professionalprojects";
+import PersonalProjects from "../components/content/personalProjects";
+import TopNavigation from "../components/content/topnavigation";
 
 const Projects =  () => {
     return (
         <div className='fadeintext' >
             <h1 className={classes.heading}>Projects</h1>
-            <h2>Professional projects</h2>
-            <div>
-                <img className = {classes.image} src={banking} alt="banking"/>
-            </div>
-            
+            <ProfessionalProjects />
+            <hr className={classes.header}/>
+            <PersonalProjects />
+            <TopNavigation />
         </div>
         
     )

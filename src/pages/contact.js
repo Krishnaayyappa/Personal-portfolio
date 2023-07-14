@@ -4,9 +4,11 @@ import classes from "./contact.module.css"
 
 const Contact = () => {
     return(
-        <div className={`${classes.contact} fadeintext`}>
-            <ContactDetails />
-            <Followme />
+        <div className="fadeintext">
+            <div className = {classes.contact}>
+                <ContactDetails />
+                <Followme />
+            </div>
         </div>
     )
 }

@@ -42,3 +42,41 @@
     line-height: normal;
     margin:7px 0 7px 0;
 }
+.featurediv {
+    font-family: "Ysabeau+Infant";
+    line-height: normal;
+    margin:1rem 0 1rem 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.feaname{
+    font-style: italic;
+    margin-bottom:-10px;;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    margin-top: -1rem;
+    font-family: "Ysabeau+Infant";
+}
+
+.links{
+    font-family:"Open+Sans";
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+a:hover{
+    color:rgb(35, 85, 106);
+}
+
+
+

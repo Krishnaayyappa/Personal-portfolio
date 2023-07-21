@@ -14,7 +14,7 @@ export default function ProfessionalProjects() {
       {
         <ul>
           {details.map((d) => (
-            <li key={d.id}>
+            <li key={d.id} className={classes.list}>
               <Link to={d.id} className={classes.link}>
                 <Gallery
                   image={d.image}

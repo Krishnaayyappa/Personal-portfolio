@@ -30,6 +30,11 @@
 
 .link{
     text-decoration: none;
-    color:black
+    color:black;
+}
+
+.list{
+    width:800px;
+    margin: auto;
 }
 

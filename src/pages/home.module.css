@@ -1,10 +1,10 @@
 
 .intro{
-    width:35%;
+    width:80%;
     margin: 7rem auto;
     display:flex;
-    flex-direction: column;
-    gap: 50px;
+    flex-direction: row;
+    gap: 100px;
     justify-content: center;
 }
 
@@ -22,6 +22,7 @@
 
 .content{
     line-height: 1.2rem;
+    margin-top:7rem;
 }
 
 
@@ -67,3 +68,23 @@
   .circle3{
     background-color: rgb(8, 217, 228);
   }
+
+  .layout{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .rotate{
+    animation: rotation 120s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+ }
+

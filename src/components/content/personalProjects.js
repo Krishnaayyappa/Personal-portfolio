@@ -13,7 +13,7 @@ export default function PersonalProjects() {
       <h2 className={classes.protype}>Personal projects</h2>
       <ul>
         {details.map((d) => (
-          <li key={d.id}>
+          <li key={d.id} className={classes.list}>
             <Link to={d.id} className={classes.link}>
               <Gallery
                 image={d.image}

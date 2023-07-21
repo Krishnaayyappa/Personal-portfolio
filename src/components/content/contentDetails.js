@@ -63,9 +63,15 @@ export const personal = [
     projDesc:`The Food Delivery App is a personal project I developed using React.js. It is a web application that allows users 
     to browse food menus, add items to cart and proceed to checkout for food delivery. This app incorporates various react concepts, including form validaions, React-redux 
     for state management, animations and other key features to enhance the user experience.`,
-     overView: "An Overview of the project description, tools and technologies used",
-    roles: "lorem Ipsum",
-    tools: "Lorem Ipsum",
+     overView: "An Overview of the project description, features implemented and tools and technologies used",
+    features: [
+        {id:1, name:`Food Menu`, desc:`Display a variety of food items in an organized and visually appealing menu format.`},
+        {id:2, name:`Cart Functionality`, desc:`Allow users to add food items to a cart, adjust quantities, and remove items and Display the selected food items, their quantities, and the total price in the cart.`},
+        {id:3, name:`Checkout Process`, desc:`Enable users to proceed to the checkout page to review their selected food items.`},
+        {id:4, name:`Form Validations`, desc:`Incorporate form validations using React concepts to ensure data accuracy and prevent errors during the checkout process and Validate and handle input fields such as name, address, phone number, and payment details.`},
+        {id:5, name:`React-Redux Integration`, desc:`Utilize React-Redux for state management, allowing for efficient handling of the application's data flow and Implement Redux actions, reducers, and selectors to manage the cart state and other relevant data.`}
+    ],
+    tools: "HTML, CSS, ANTD, Javascript, React.js, React-redux, node.js, VSCode, MongoDB",
   },
   {
     id: "p4",

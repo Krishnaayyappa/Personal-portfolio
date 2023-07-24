@@ -16,10 +16,10 @@ export default function Roles({ roles }) {
   );
 }
 
-export function Features({ features }) {
+export function Features({ features, links, projName }) {
   return (
     <div>
-      <p className={classes.bold}>Features:</p>
+      <p className={classes.bold}>Key Highlights:</p>
       <ul>
         {features.map((feature) => (
           <li key={feature.id}>
@@ -34,11 +34,11 @@ export function Features({ features }) {
         Please find below the web application and github repositories links
       </p>
       <div className={classes.link}>
-        <a href="https://nextjs-project-psi-bay.vercel.app/" target="_blank">
-          <p><LinkOutlined /> Food Ordering App</p>
+        <a href={links.appLink} target="_blank">
+          <p><LinkOutlined />{projName}</p>
         </a>
         <a
-          href="https://github.com/Krishnaayyappa/Foodelicious-App"
+          href={links.githubLink}
           target="_blank"
         >
           <p><LinkOutlined /> Github repo</p>

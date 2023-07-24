@@ -11,11 +11,11 @@ const Resume = () => {
       <h1 className={classes.heading}>Resume</h1>
       <div className={classes.line}></div>
       <Box boxtype="Work Experience">
-        <BoxDetails
+        {/* <BoxDetails
           year="2022-present"
           position="React Developer"
           company="Bank of Montreal"
-        />
+        /> */}
         <hr className={classes.divider} />
         <BoxDetails
           year="2018-2020"

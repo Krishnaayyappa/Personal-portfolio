@@ -20,7 +20,7 @@ export default function Project(){
     return (
         <div className="fadeintext">
             <ProjectDetails details = {details}>
-                {roles ? <Roles roles ={details.roles} /> : <Features features={details.features}/>}
+                {roles ? <Roles roles ={details.roles} /> : <Features features={details.features} links = {details.links} projName = {details.projName}/>}
             </ProjectDetails>
 
         </div>

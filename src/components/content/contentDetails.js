@@ -72,19 +72,29 @@ export const personal = [
         {id:5, name:`React-Redux Integration`, desc:`Utilize React-Redux for state management, allowing for efficient handling of the application's data flow and Implement Redux actions, reducers, and selectors to manage the cart state and other relevant data.`}
     ],
     tools: "HTML, CSS, ANTD, Javascript, React.js, React-redux, node.js, VSCode, MongoDB",
+    links: {appLink:`https://nextjs-project-psi-bay.vercel.app/`, githubLink: `https://github.com/Krishnaayyappa/Foodelicious-App`}
   },
   {
     id: "p4",
     image: events,
     projName: "Events App",
     projDesc:
-      `It is a long established fact that a reader will be distracted 
-      by the readable content of a page when looking at its layout. 
-      The point of using Lorem Ipsum is that it has a more-or-less 
-      normal distribution of letters, as opposed to using 'Content here, 
-      content here`,
-    overView: "Lorem Ipsum",
-    roles: "lorem Ipsum",
-    tools: "Lorem Ipsum",
+      `The Events App is a personal project I developed using React, featuring a dynamic 
+      and user-friendly web application that facilitates event management and organization. 
+      Leveraging various cutting-edge React concepts and technologies, I successfully created a 
+      feature-rich single-page application
+      (SPA) that enhances the user experience and efficiency of event-related tasks.`,
+    overView: "An Overview of the project description, features implemented and tools and technologies used",
+    features: [
+      {id:1, name:`User Registration and Login`, desc: `Users can register new accounts and log in securely using email and password authentication.`},
+      {id:2, name:`Create and Manage Events`, desc: `Authenticated users can create new events, providing event details such as title, description, date, and location. They can also edit and delete their own events.`},
+      {id:3, name:`Event Listings and Details`, desc:`he application displays a list of upcoming events, showing relevant information. Users can click on an event to view its details.`},
+      {id:4, name:`Single-Page Application (SPA)`, desc: `The application uses React Router DOM to create a single-page application, allowing for smooth and fast navigation without full page reloads, resulting in a better user experience.`},
+      {id:5, name: `React Concepts and Hooks`, desc: `In this project, I effectively utilized React concepts like functional components and React hooks (e.g., useState, useEffect, useContext) to build a clean and modular codebase. The use of hooks allowed me to manage state and perform side effects efficiently, contributing to improved performance and code readability.`},
+      {id:6, name: `Secure User Authentication`, desc: `Implementing secure user authentication was a top priority for this project. I managed user login and access control by validating JWT tokens received from the backend. This ensured that only authenticated users could access certain parts of the application, enhancing its security.`},
+      {id:7, name: `Integration with RESTful API`, desc:`I successfully integrated the frontend with a backend RESTful API, which allowed for smooth data exchange between the client and the server. Fetching data from the backend API ensured up-to-date information and real-time synchronization of events.`}
+    ],
+    tools: "HTML5, CSS3, JavaScript, React.js, React Hooks, react-router-dom, Express.js, node.js, JWT Tokens, fetch, CSS Animations",
+    links: {appLink:`https://advanced-routing-react.vercel.app/`, githubLink: `https://github.com/Krishnaayyappa/AdvancedRouting-react`}
   },
 ];

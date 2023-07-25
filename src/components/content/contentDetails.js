@@ -72,7 +72,7 @@ export const personal = [
         {id:5, name:`React-Redux Integration`, desc:`Utilize React-Redux for state management, allowing for efficient handling of the application's data flow and Implement Redux actions, reducers, and selectors to manage the cart state and other relevant data.`}
     ],
     tools: "HTML, CSS, ANTD, Javascript, React.js, React-redux, node.js, VSCode, MongoDB",
-    links: {appLink:`https://nextjs-project-psi-bay.vercel.app/`, githubLink: `https://github.com/Krishnaayyappa/Foodelicious-App`}
+    links: {appLink:`https://food-app-jet-eight.vercel.app/`, githubLink: `https://github.com/Krishnaayyappa/Foodelicious-App`}
   },
   {
     id: "p4",

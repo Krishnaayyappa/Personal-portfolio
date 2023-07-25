@@ -16,7 +16,7 @@ const Resume = () => {
           position="React Developer"
           company="Bank of Montreal"
         /> */}
-        <hr className={classes.divider} />
+        {/* <hr className={classes.divider} /> */}
         <BoxDetails
           year="2018-2020"
           position="Full Stack Developer"

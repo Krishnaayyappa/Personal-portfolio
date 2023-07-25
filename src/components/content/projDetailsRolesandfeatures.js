@@ -34,14 +34,16 @@ export function Features({ features, links, projName }) {
         Please find below the web application and github repositories links
       </p>
       <div className={classes.link}>
-        <a href={links.appLink} target="_blank">
-          <p><LinkOutlined />{projName}</p>
+        <a href={links.appLink} target="_blank" rel="noreferrer">
+          <p>
+            <LinkOutlined />
+            {projName}
+          </p>
         </a>
-        <a
-          href={links.githubLink}
-          target="_blank"
-        >
-          <p><LinkOutlined /> Github repo</p>
+        <a href={links.githubLink} target="_blank" rel="noreferrer">
+          <p>
+            <LinkOutlined /> Github repo
+          </p>
         </a>
       </div>
     </div>

@@ -9,11 +9,12 @@
 }
 
 .project{
-    width:15rem;
-    height:5rem;
-    border: 5px solid rgb(180,180,180);
+    width:7.5rem;
+    height:3rem;
+    border: 1px solid rgb(180,180,180);
     margin:auto;
     text-align: center;
+    border-radius: 1rem;
 }
 
 .project:hover{
@@ -21,7 +22,7 @@
 }
 
 .project p{
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     font-family:"Open+Sans";
     font-style: italic;
     font-size: 1.5rem;

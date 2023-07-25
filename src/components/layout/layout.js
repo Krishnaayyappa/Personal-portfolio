@@ -2,6 +2,7 @@ import Navigation from "./Navigation";
 import Footer from "./footer";
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
+import { ScrollRestoration } from "react-router-dom";
 
 
 
@@ -13,6 +14,7 @@ const PageLayout = (props) => {
                 <Outlet />
             </main>
             <Footer />
+            <ScrollRestoration />
         </Fragment>
     )
 }
